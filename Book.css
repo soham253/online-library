@@ -1,0 +1,44 @@
+.book-image img{
+    display: block;
+    max-width: 200px;
+    height: auto;
+}
+.book-image {
+    flex: 0 0 100px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+button{
+    background-color: yellow;
+    border-color: black;
+
+}
+.book-info{
+    flex: 1;
+}
+.book{
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+    border: 1px solid snow;
+     border-radius: 1px;
+     padding: 5px;
+      max-lines:100 ;
+     nav-right:5px ;
+}
+.book-author{
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.book-price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.header{
+    background-color:  orangered;
+    text-align: center;
+     
+}
